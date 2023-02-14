@@ -1,0 +1,48 @@
+{
+  "name": "smart-brain-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt-nodejs": "^0.0.31",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.4.0",
+    "@types/jest-cli": "^24.3.0",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^18.13.0",
+    "@types/pg": "^8.6.6",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/reactstrap": "^8.7.2",
+    "axios": "^1.3.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.20.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http": "0.0.1-security",
+    "jest-cli": "^29.4.2",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^2.0.0",
+    "pg": "^8.7.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.3.3",
+    "supertest-fetch": "^1.5.0"
+  }
+}
